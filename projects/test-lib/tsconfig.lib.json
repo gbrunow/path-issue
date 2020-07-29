@@ -13,10 +13,10 @@
     ],
     "paths": {
       "@components": [
-        "./src/lib/components"
+        "projects/src/lib/components"
       ],
       "@components/*": [
-        "./src/lib/components/*"
+        "projects/src/lib/components/*"
       ]
     }
   },
