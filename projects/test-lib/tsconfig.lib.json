@@ -11,12 +11,13 @@
       "dom",
       "es2018"
     ],
+    "baseUrl": "src/lib",
     "paths": {
       "@components": [
-        "projects/src/lib/components"
+        "components"
       ],
       "@components/*": [
-        "projects/src/lib/components/*"
+        "components/*"
       ]
     }
   },

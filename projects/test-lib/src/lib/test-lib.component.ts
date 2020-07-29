@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { DummyComponent } from "@components/dummy/dummy.component";
+import { DummyComponent } from "@components";
 
 @Component({
   selector: 'lib-test-lib',
