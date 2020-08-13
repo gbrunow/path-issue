@@ -8,18 +8,12 @@
     "downlevelIteration": true,
     "experimentalDecorators": true,
     "moduleResolution": "node",
+    "module": "es2020",
     "importHelpers": true,
     "target": "es2015",
-    "module": "es2020",
-    "lib": [
-      "es2018",
-      "dom"
-    ],
+    "lib": ["es2018", "dom"],
     "paths": {
-      "test-lib": [
-        "dist/test-lib/test-lib",
-        "dist/test-lib"
-      ]
+      "test-lib": ["dist/test-lib/test-lib", "dist/test-lib"]
     }
   }
 }

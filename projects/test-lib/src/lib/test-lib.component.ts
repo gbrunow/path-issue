@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { DummyComponent } from "@components";
+import { DummyComponent } from '@components';
 
 @Component({
   selector: 'lib-test-lib',
@@ -8,14 +8,12 @@ import { DummyComponent } from "@components";
       test-lib works!
     </p>
   `,
-  styles: [
-  ]
+  styles: [],
 })
 export class TestLibComponent implements OnInit {
+  test: DummyComponent;
 
-  constructor() { }
+  constructor() {}
 
-  ngOnInit(): void {
-  }
-
+  ngOnInit(): void {}
 }
